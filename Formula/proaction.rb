@@ -2,16 +2,16 @@
 class Proaction < Formula
   desc "Build better GitHub Action Workflows"
   homepage "https://proaction.io"
-  version "0.2.0"
+  version "0.3.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/proactionhq/proaction/releases/download/v0.2.0/proaction_darwin_amd64.tar.gz"
-    sha256 "cb6c4c2ff47efede7cf2572fbcc80d01296ffd4984d8bcaa0e979268b45ec314"
+    url "https://github.com/proactionhq/proaction/releases/download/v0.3.0/proaction_darwin_amd64.tar.gz"
+    sha256 "d0f2599d8b8bf99e1fec3d301c4b4ca9ff6395f45ad41a967d55e0466fab996c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/proactionhq/proaction/releases/download/v0.2.0/proaction_linux_amd64.tar.gz"
-      sha256 "93557f6f3998e8705f06470c47c9dd0615b5c800aa3d5a4ffbe34cf245617e06"
+      url "https://github.com/proactionhq/proaction/releases/download/v0.3.0/proaction_linux_amd64.tar.gz"
+      sha256 "256ce4193e6ac0a0a5543e6cd68f179064caf2994726163447a76ee9acd6312c"
     end
   end
 
