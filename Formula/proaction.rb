@@ -7,11 +7,11 @@ class Proaction < Formula
 
   if OS.mac?
     url "https://github.com/proactionhq/proaction/releases/download/v0.4.2/proaction_darwin_amd64.tar.gz"
-    sha256 "1ea6e608e976a285efdc211008da729ffd8d74fcc2db20a6dd5e00938e79508c"
+    sha256 "867099c33bdc70fab3621c75ecd95c07130ec86679ea15d796857d8d07efde1b"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/proactionhq/proaction/releases/download/v0.4.2/proaction_linux_amd64.tar.gz"
-      sha256 "fa449dbf540c0b4fd16d9fedc8c1905eea53f0e2d0da4e0b05ac19b50e5df3bf"
+      sha256 "23adc393fa422fa2a06c31305a757d097877f50f708f4642787d3f75cafb6d9a"
     end
   end
 
